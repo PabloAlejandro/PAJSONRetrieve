@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6491731CDFB9FD00AA9D8F /* PAJSONRetrieve.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F6491721CDFB9FD00AA9D8F /* PAJSONRetrieve.h */; };
+		5F6491751CDFB9FD00AA9D8F /* PAJSONRetrieve.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6491741CDFB9FD00AA9D8F /* PAJSONRetrieve.m */; };
+		5F6491811CDFBA3900AA9D8F /* ServerRequestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6491801CDFBA3900AA9D8F /* ServerRequestUtils.m */; };
+		5F6491841CDFBA3F00AA9D8F /* NetworkFactoryRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6491831CDFBA3F00AA9D8F /* NetworkFactoryRequests.m */; };
+		5F64918A1CDFBA6200AA9D8F /* JSONRequestsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6491881CDFBA6200AA9D8F /* JSONRequestsManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F64916D1CDFB9FD00AA9D8F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5F6491731CDFB9FD00AA9D8F /* PAJSONRetrieve.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F64916F1CDFB9FD00AA9D8F /* libPAJSONRetrieve.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPAJSONRetrieve.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6491721CDFB9FD00AA9D8F /* PAJSONRetrieve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAJSONRetrieve.h; sourceTree = "<group>"; };
+		5F6491741CDFB9FD00AA9D8F /* PAJSONRetrieve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAJSONRetrieve.m; sourceTree = "<group>"; };
+		5F64917F1CDFBA3900AA9D8F /* ServerRequestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerRequestUtils.h; path = Utils/Network/ServerRequestUtils/ServerRequestUtils.h; sourceTree = "<group>"; };
+		5F6491801CDFBA3900AA9D8F /* ServerRequestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerRequestUtils.m; path = Utils/Network/ServerRequestUtils/ServerRequestUtils.m; sourceTree = "<group>"; };
+		5F6491821CDFBA3F00AA9D8F /* NetworkFactoryRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkFactoryRequests.h; path = Utils/Network/NetworkFactoryRequests/NetworkFactoryRequests.h; sourceTree = "<group>"; };
+		5F6491831CDFBA3F00AA9D8F /* NetworkFactoryRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkFactoryRequests.m; path = Utils/Network/NetworkFactoryRequests/NetworkFactoryRequests.m; sourceTree = "<group>"; };
+		5F6491871CDFBA6200AA9D8F /* JSONRequestsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRequestsManager.h; sourceTree = "<group>"; };
+		5F6491881CDFBA6200AA9D8F /* JSONRequestsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONRequestsManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F64916C1CDFB9FD00AA9D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6491661CDFB9FD00AA9D8F = {
+			isa = PBXGroup;
+			children = (
+				5F64917B1CDFBA0100AA9D8F /* Utils */,
+				5F6491711CDFB9FD00AA9D8F /* PAJSONRetrieve */,
+				5F6491701CDFB9FD00AA9D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6491701CDFB9FD00AA9D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F64916F1CDFB9FD00AA9D8F /* libPAJSONRetrieve.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F6491711CDFB9FD00AA9D8F /* PAJSONRetrieve */ = {
+			isa = PBXGroup;
+			children = (
+				5F6491871CDFBA6200AA9D8F /* JSONRequestsManager.h */,
+				5F6491881CDFBA6200AA9D8F /* JSONRequestsManager.m */,
+				5F6491721CDFB9FD00AA9D8F /* PAJSONRetrieve.h */,
+				5F6491741CDFB9FD00AA9D8F /* PAJSONRetrieve.m */,
+			);
+			path = PAJSONRetrieve;
+			sourceTree = "<group>";
+		};
+		5F64917B1CDFBA0100AA9D8F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F64917C1CDFBA2700AA9D8F /* Network */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		5F64917C1CDFBA2700AA9D8F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5F64917E1CDFBA3300AA9D8F /* ServerRequestUtils */,
+				5F64917D1CDFBA2D00AA9D8F /* NetworkFactoryRequests */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		5F64917D1CDFBA2D00AA9D8F /* NetworkFactoryRequests */ = {
+			isa = PBXGroup;
+			children = (
+				5F6491821CDFBA3F00AA9D8F /* NetworkFactoryRequests.h */,
+				5F6491831CDFBA3F00AA9D8F /* NetworkFactoryRequests.m */,
+			);
+			name = NetworkFactoryRequests;
+			sourceTree = "<group>";
+		};
+		5F64917E1CDFBA3300AA9D8F /* ServerRequestUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5F64917F1CDFBA3900AA9D8F /* ServerRequestUtils.h */,
+				5F6491801CDFBA3900AA9D8F /* ServerRequestUtils.m */,
+			);
+			name = ServerRequestUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F64916E1CDFB9FD00AA9D8F /* PAJSONRetrieve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6491781CDFB9FD00AA9D8F /* Build configuration list for PBXNativeTarget "PAJSONRetrieve" */;
+			buildPhases = (
+				5F64916B1CDFB9FD00AA9D8F /* Sources */,
+				5F64916C1CDFB9FD00AA9D8F /* Frameworks */,
+				5F64916D1CDFB9FD00AA9D8F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PAJSONRetrieve;
+			productName = PAJSONRetrieve;
+			productReference = 5F64916F1CDFB9FD00AA9D8F /* libPAJSONRetrieve.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6491671CDFB9FD00AA9D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pablo Alejandro";
+				TargetAttributes = {
+					5F64916E1CDFB9FD00AA9D8F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5F64916A1CDFB9FD00AA9D8F /* Build configuration list for PBXProject "PAJSONRetrieve" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F6491661CDFB9FD00AA9D8F;
+			productRefGroup = 5F6491701CDFB9FD00AA9D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F64916E1CDFB9FD00AA9D8F /* PAJSONRetrieve */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F64916B1CDFB9FD00AA9D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6491811CDFBA3900AA9D8F /* ServerRequestUtils.m in Sources */,
+				5F6491841CDFBA3F00AA9D8F /* NetworkFactoryRequests.m in Sources */,
+				5F64918A1CDFBA6200AA9D8F /* JSONRequestsManager.m in Sources */,
+				5F6491751CDFB9FD00AA9D8F /* PAJSONRetrieve.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F6491761CDFB9FD00AA9D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F6491771CDFB9FD00AA9D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F6491791CDFB9FD00AA9D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5F64917A1CDFB9FD00AA9D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F64916A1CDFB9FD00AA9D8F /* Build configuration list for PBXProject "PAJSONRetrieve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6491761CDFB9FD00AA9D8F /* Debug */,
+				5F6491771CDFB9FD00AA9D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6491781CDFB9FD00AA9D8F /* Build configuration list for PBXNativeTarget "PAJSONRetrieve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6491791CDFB9FD00AA9D8F /* Debug */,
+				5F64917A1CDFB9FD00AA9D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6491671CDFB9FD00AA9D8F /* Project object */;
+}
